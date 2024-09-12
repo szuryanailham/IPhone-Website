@@ -6,7 +6,7 @@ import Features from "./components/Features";
 import HowItWork from "./components/HowItWork";
 const App = () => {
   return (
-    <div className="bg-black">
+    <div className="bg-black overflow-x-hidden">
       <Navbar />
       <Hero />
       <Hightlight />
